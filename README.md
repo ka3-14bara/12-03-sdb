@@ -17,7 +17,7 @@
 
 ### Ответ 1
 
-![alt text](image.png)
+![Снимок экрана 2024-06-30 224347](https://github.com/ka3-14bara/12-03-sdb/assets/142439642/3369dc39-832a-4761-adeb-74661fe9887d)
 
 ```
 select distinct district from address a 
@@ -34,7 +34,7 @@ where district LIKE 'K%a' and
 ---
 ### Решение 2
 
-![alt text](image-1.png)
+![Снимок экрана 2024-06-30 224449](https://github.com/ka3-14bara/12-03-sdb/assets/142439642/b1e2c32b-cbf8-44d0-952e-7256195b5883)
 
 ```
 select * from payment p 
@@ -52,7 +52,7 @@ where amount > 10.0 and
 
 ### Решение 3
 
-![alt text](image-2.png)
+![Снимок экрана 2024-06-30 224554](https://github.com/ka3-14bara/12-03-sdb/assets/142439642/263da87d-9ae6-4724-a68e-8aac5c86e7e7)
 
 ```
 select * from rental r 
@@ -75,7 +75,7 @@ limit 5;
 
 ### Решение 4
 
-![alt text](image-3.png)
+![Снимок экрана 2024-06-30 224704](https://github.com/ka3-14bara/12-03-sdb/assets/142439642/1cc215eb-a333-4126-b5bf-3141d4c08d79)
 
 ```
 select customer_id, store_id, replace(lower(first_name), 'll', 'pp'), lower(last_name) from customer c 
